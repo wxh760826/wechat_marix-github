@@ -47,10 +47,6 @@ body{
 
 }*/
 
-/* max-width: 1080px;
-    color: #333;
-    margin: auto;
-    font-size: 1.4rem;*/
 
 .container {
     display: flex;
@@ -81,12 +77,12 @@ section {
 
 .nav ul li {
     flex: 0 1 25%;
-   height:20rem;
+   height:10rem;
    
 }
 .nav ul img {
     max-width: 70%;
-    height:15rem;
+    height:7rem;
     border-style: groove;
     border-radius: 10%;
     margin: 7px 0;
@@ -143,51 +139,11 @@ section {
 
 .bg-color span{
     color: #000000;
-    font-size: 200%;
+    font-size: 100%;
     text-align: center;
 }
 
-/* 优惠券 */
-.coupon {
-    display: flex;
-    color: #fff;
-    justify-content: space-between;
-    position: relative;
-}
-.coupon-item {
-    flex: 0 1 28%;
-    text-align: center;
-    background:#FB3950;
-    border-radius: 1rem;
-    background-image: radial-gradient(circle at left 50%,#fff 7px,transparent 7px),
-                     radial-gradient(circle at right 50%,#fff 7px,transparent 7px);
-    /* background-size: 220px 18px; */
-}
-.coupon .line {
-    position: absolute;
-    bottom: 40px;
-    left: 10px;
-    width: 80%;
-    height:1px;
-    background-image: linear-gradient(to right,#fff 50%,transparent 50%);
-    background-size: 8px 1px;
-}
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-}
-.content-left,
-.content-right {
-    width: 50%;
-}
-.content-item {
-    padding: 5px;
-}
-.content-item img {
-    width: 100%;
-    height: auto;
-}
+
 /* 底部 */
 .footer ul {
     display: flex;
