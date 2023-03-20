@@ -77,16 +77,22 @@ section {
 
 .nav ul li {
     flex: 0 1 25%;
-   height:5rem;
+   height:35vw;
    
 }
 .nav ul img {
-    max-width: 70%;
-    height:4rem;
+    max-width: 85%;
+    height:20vw;
     border-style: groove;
     border-radius: 10%;
     margin: 7px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav ul li p {
+    color: #000000;
+    font-size: 3.5vw;
+    text-align: center;
 }
 
 /*@media screen and (max-width:1920px){
@@ -132,14 +138,14 @@ section {
 }
 .bg-color {
     color: #fff;
-    padding: 38px 0;
+    padding: 20px 0;
 
 
 }
 
 .bg-color span{
     color: #000000;
-    font-size: 100%;
+    font-size: 6vw;
     text-align: center;
 }
 
@@ -147,14 +153,15 @@ section {
 /* 底部 */
 .footer ul {
     display: flex;
-    background:#7ff8a3;
+    background:#95fab4;
     justify-content: space-around;
 }
 .footer ul li {
 text-align: center;
-height:3rem;
+height:8vw;
 }
 .footer ul span {
+    font-size:4vw;
     display:block;
     align-self: center;
     text-align: center;
