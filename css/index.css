@@ -77,12 +77,12 @@ section {
 
 .nav ul li {
     flex: 0 1 25%;
-   height:10rem;
+   height:5rem;
    
 }
 .nav ul img {
     max-width: 70%;
-    height:7rem;
+    height:4rem;
     border-style: groove;
     border-radius: 10%;
     margin: 7px 0;
@@ -139,7 +139,7 @@ section {
 
 .bg-color span{
     color: #000000;
-    font-size: 100%;
+    font-size: 50%;
     text-align: center;
 }
 
