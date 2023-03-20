@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+    /* 10px1rem=10px */
+    overflow-x: hidden;
+}
+
+
+   
+/*这里的定义是对其他设备*/
+@media screen and (max-width:600px){
+    /*里面的定义对宽度是500像素以下的设备,如*/
+    body{
+        width:100%;
+        color: #333;
+        margin: auto;
+        font-size: 1.4rem;
+        background:#c4f7ec;
+    }
+
+}
+@media screen and (max-width:1920px){
+    /*里面的定义对宽度是500像素以下的设备,如*/
+    body{
+        width:600px;
+        color: #333;
+        margin: auto;
+        font-size: 1.4rem;
+        background:#c4f7ec;
+    }
+
+}
+/* max-width: 1080px;
+    color: #333;
+    margin: auto;
+    font-size: 1.4rem;*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* 会被撑开占满整剩余空间 */
+
+}
+section {
+    flex: 1;
+    overflow: auto;
+}
+/* 页面头部 */
+.master_image {
+    position: relative;
+}
+.master_image img {
+    max-width: 100%;
+    height:auto;
+}
+
+/* 导航栏 */
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@media screen and (max-width:1920px){
+    /*里面的定义对宽度是500像素以下的设备,如*/
+    .nav ul li {
+        flex: 0 1 25%;
+       height:16rem;
+       
+    }
+    .nav ul img {
+        max-width: 70%;
+        height:10rem;
+        border-style: groove;
+        border-radius: 10%;
+        margin: 7px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+}
+@media screen and (max-width:600px){
+    /*里面的定义对宽度是500像素以下的设备,如*/
+    .nav ul li {
+        flex: 0 1 25%;
+       height:20rem;
+       
+    }
+    .nav ul img {
+        max-width: 70%;
+        height:15rem;
+        border-style: groove;
+        border-radius: 10%;
+        margin: 7px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+}
+/* 彩色背景卡 */
+.card {
+    display: flex;
+    flex: 0 1 100%;
+    justify-content: center;
+
+}
+.bg-color {
+    color: #fff;
+    padding: 38px 0;
+
+
+}
+
+.bg-color span{
+    color: #000000;
+    font-size: 200%;
+    text-align: center;
+}
+
+/* 优惠券 */
+.coupon {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    position: relative;
+}
+.coupon-item {
+    flex: 0 1 28%;
+    text-align: center;
+    background:#FB3950;
+    border-radius: 1rem;
+    background-image: radial-gradient(circle at left 50%,#fff 7px,transparent 7px),
+                     radial-gradient(circle at right 50%,#fff 7px,transparent 7px);
+    /* background-size: 220px 18px; */
+}
+.coupon .line {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    width: 80%;
+    height:1px;
+    background-image: linear-gradient(to right,#fff 50%,transparent 50%);
+    background-size: 8px 1px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.content-left,
+.content-right {
+    width: 50%;
+}
+.content-item {
+    padding: 5px;
+}
+.content-item img {
+    width: 100%;
+    height: auto;
+}
+/* 底部 */
+.footer ul {
+    display: flex;
+    background:#7ff8a3;
+    justify-content: space-around;
+}
+.footer ul li {
+text-align: center;
+height:3rem;
+}
+.footer ul span {
+    display:block;
+    align-self: center;
+    text-align: center;
+}
